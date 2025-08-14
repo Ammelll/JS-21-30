@@ -75,8 +75,6 @@ function maxBlock(str){
     let count = 1
     previous = ""
     for(let i =0; i <str.length;i++){
-        console.log(str[i] + " " + previous)
-        console.log(str[i] == previous)
         if(str[i] == previous){count+=1}
         else{
             count = 1
